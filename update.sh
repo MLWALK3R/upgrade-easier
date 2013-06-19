@@ -1,4 +1,4 @@
-	echo -e "\e[1;34m[*] Going to update the system!\e[0m"
+	echo -e "\e[1;34m[*] Going to update the system! \e[0m"
 	sleep 1
 	echo
 	sleep 1
@@ -12,7 +12,7 @@
 	echo -e "\e[1;34m[*] Distribution Upgrades.. This may take a while. \e[0m"
 	sleep 1
 	echo
-	apt-get dist-upgrade
+	apt-get dist-upgrade -y
 	echo
 	sleep 2
 	echo -e "\e[1;34m[*]All done.\e[0m"
