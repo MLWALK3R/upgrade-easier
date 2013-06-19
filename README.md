@@ -1,5 +1,9 @@
 apt-get-easy-update
 ===================
 
-Does not WORK Currently !!
+Runs's the update and upgrade commands!
+
+chmod 777 update.sh
+
+
 Apt-get update &amp; upgrade script
