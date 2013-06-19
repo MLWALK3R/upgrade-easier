@@ -9,7 +9,7 @@
 	echo -e "\e[1;34m[*] Upgrading...\e[0m"
 	sleep 2
 	apt-get upgrade -y
-	echo -e " Distribution Upgrades.. This may take a while."
+	echo -e "\e[1;34m[*] Distribution Upgrades.. This may take a while. \e[0m"
 	sleep 1
 	echo
 	apt-get dist-upgrade
