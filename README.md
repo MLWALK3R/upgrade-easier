@@ -1,4 +1,4 @@
-apt-get-easy-update
+Update & Upgrade made easy
 ===================
 
 Runs's the update and upgrade commands!
