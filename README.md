@@ -1,7 +1,12 @@
 Update & Upgrade made easy
 ===================
+ 
 
-Runs's the update and upgrade commands!
+This script runs the Fallowing, apt-get update, apt-get upgrade -y, apt-get dist-upgrade -y. 
+
+
+Design to make it faster updaing Linux server's, when you have several running.
+
 
 Curl verison
 
