@@ -5,7 +5,7 @@ Update & Upgrade made easy
 This script runs the Fallowing, apt-get update, apt-get upgrade -y, apt-get dist-upgrade -y. 
 
 
-Design to make it faster updaing Linux server's, when you have several running.
+Design to make it faster updaing Linux server's, when you have several operating.
 
 
 Curl verison
