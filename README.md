@@ -19,4 +19,4 @@ wget https://raw.github.com/MLWALK3R/Update---Upgrade/master/update.sh >> update
 
 
 
-*USE AT YOUR OWN RISK!*
+Disclaimer, use at your own risk!
