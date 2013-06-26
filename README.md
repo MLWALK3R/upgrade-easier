@@ -15,7 +15,7 @@ apt-get install curl && curl https://raw.github.com/MLWALK3R/Update---Upgrade/ma
 
 Wget Version
 
-wget https://raw.github.com/MLWALK3R/Update---Upgrade/master/update.sh >> update.sh && chmod a+x update.sh && ./update.sh
+wget https://raw.github.com/MLWALK3R/Update---Upgrade/master/update.sh && chmod a+x update.sh && ./update.sh
 
 
 
