@@ -9,6 +9,8 @@
 	echo -e "\e[1;34m[*] Cleaning Up!...\e[0m"
 	apt-get autoremove -y
 	sleep 1
+	apt-get install -f -y
+	sleep 1
 	apt-get autoclean -y
 	sleep 1
 	echo -e "\e[1;34m[*] Upgrading...\e[0m"
