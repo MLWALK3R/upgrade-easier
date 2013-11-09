@@ -8,6 +8,8 @@ PASS=" 0% packet loss"
 if[ "$TEST" = "$PASS" ]; then
 echo -e "\e[1;34m[*] Congratz the Internt is working.\e[0m"
 sleep 1
+else
+	echo "Internet Down?"
 echo -e "\e[1;34m[*] Going to update the system! \e[0m"
 sleep 1
 echo
