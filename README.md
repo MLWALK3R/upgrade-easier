@@ -10,12 +10,12 @@ Design to make it faster updaing Linux server's, when you have several operating
 
 Curl verison
 
-apt-get install curl && curl https://raw.github.com/MLWALK3R/Update---Upgrade/master/update.sh && chmod a+x update.sh && sh update.sh
+apt-get install curl && curl https://raw.github.com/MLWALK3R/Update---Upgrade/master/update.sh && chmod a+x update.sh && ./update.sh
 
 
 Wget Version
 
-wget https://raw.github.com/MLWALK3R/Update---Upgrade/master/update.sh && chmod a+x update.sh && sh update.sh
+wget https://raw.github.com/MLWALK3R/Update---Upgrade/master/update.sh && chmod a+x update.sh && ./update.sh
 
 
 
