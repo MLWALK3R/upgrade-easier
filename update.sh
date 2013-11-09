@@ -2,14 +2,14 @@ echo -e "\e[1;34m[*] Checking connectivity\e[0m"
 echo
 sleep 2
 #Variables
-TESTHOST="8.8.8.8"
+TESTHOST="google.com"
 TEST=`ping -c1 $TESTHOST | grep "1 packets transmitted" | cut -d "," -f3`
-PASS=" 0% packet loss"
-if[ "$TEST" = "$PASS" ]; then
-echo -e "\e[1;34m[*] Congratz the Internt is working.\e[0m"
-sleep 1
+PASS="0% packet loss"
+if["$TEST" = "$PASS"]; then
+	echo -e "\e[1;34m[*] Congratz the Internt is working.\e[0m" 
 else
 	echo "Internet Down?"
+
 echo -e "\e[1;34m[*] Going to update the system! \e[0m"
 sleep 1
 echo
