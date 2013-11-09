@@ -32,4 +32,4 @@ echo
 sleep 2
 echo -e "\E[32;40m[*]All done.\e[0m"
 exit 0
-fifi
+fi
