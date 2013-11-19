@@ -1,13 +1,18 @@
 Update & Upgrade made easy
 ===================
- 
-
-This script runs the following for Debian Based OSes: apt-get update, apt-get upgrade -y, apt-get dist-upgrade -y. It runs yum upgrade -y for RHEL Based OSes 
+Designed for updating linux servers with minimal effort.
 
 
-It is designed to make it faster updating Linux server's
+Debian Based OSes
+* apt-get update
+* apt-get upgrade -y
+* apt-get dist-upgrade -y
 
+RHEL Based OSes 
+* yum upgrade -y 
 
+Usage
+===========
 Quick Version (without downloading)
 
 ```bash
