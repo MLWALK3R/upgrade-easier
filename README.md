@@ -1,4 +1,4 @@
-Update & Upgrade made easy
+Updaing made easier
 ===================
 Designed for updating linux servers with minimal effort.
 
@@ -29,4 +29,3 @@ apt-get install curl && curl https://raw.github.com/MLWALK3R/Update---Upgrade/ma
 wget https://raw.github.com/MLWALK3R/Update---Upgrade/master/update.sh && chmod a+x update.sh && ./update.sh
 ```
 
-Disclaimer, use at your own risk!
