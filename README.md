@@ -1,4 +1,4 @@
-Updaing made easier
+Updating made easier
 ===================
 Designed for updating linux servers with minimal effort.
 
