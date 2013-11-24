@@ -21,11 +21,11 @@ curl -s https://raw.github.com/MLWALK3R/upgrade-easier/master/update.sh | bash
 
 **Curl** verison
 ```bash
-apt-get install curl && curl https://raw.github.com/MLWALK3R/Update---Upgrade/master/update.sh && chmod a+x update.sh && ./update.sh
+curl -o update.sh  https://raw.github.com/MLWALK3R/upgrade-easier/master/update.sh && chmod +x update.sh && ./update.sh
 ```
 
 **Wget** Version
 ```bash
-wget https://raw.github.com/MLWALK3R/Update---Upgrade/master/update.sh && chmod a+x update.sh && ./update.sh
+wget https://raw.github.com/MLWALK3R/upgrade-easier/master/update.sh && chmod +x update.sh && ./update.sh
 ```
 
