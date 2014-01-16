@@ -1,9 +1,12 @@
 #!/bin/sh
-echo -e "Checking if you're root"
+echo -e "\E[33;40m[*]Checking if you're root\e[0m"
 if [[ $EUID -ne 0 ]]; then
    echo "This script must be run as root"
+
    else echo "You're root great"
+
 echo -e "\E[33;40m[*] Checking Linux Distribution.\e[0m"
+
 if [ -f /etc/debian_version ];  then 
     echo "This is a Debian-Based Operating System"
     DISTRO=DEBIAN;
@@ -11,7 +14,7 @@ elif [ -f /etc/redhat-release ]; then
     echo "This is a RedHat-Based Operating System"
     DISTRO=REDHAT;
 else 
-    echo -e " no supported distribution found running "
+    echo -e "\E[33;40m no supported distribution found running\e[0m "
 exit 0
 fi
 echo -e "\E[33;40m[*] Checking connectivity\e[0m"
