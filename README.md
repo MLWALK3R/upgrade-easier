@@ -16,16 +16,16 @@ Usage
 **Prefered method** (Without downloading)
 
 ```bash
-curl -s https://raw.github.com/MLWALK3R/upgrade-easier/master/update.sh | bash
+curl -s https://raw.githubusercontent.com/MLWALK3R/upgrade-easier/master/update.sh | bash
 ```
 
 **Curl** verison
 ```bash
-curl -o update.sh  https://raw.github.com/MLWALK3R/upgrade-easier/master/update.sh && chmod +x update.sh && ./update.sh
+curl -o update.sh  https://raw.githubusercontent.com/MLWALK3R/upgrade-easier/master/update.sh && chmod +x update.sh && ./update.sh
 ```
 
 **Wget** Version
 ```bash
-wget https://raw.github.com/MLWALK3R/upgrade-easier/master/update.sh && chmod +x update.sh && ./update.sh
+wget https://raw.githubusercontent.com/MLWALK3R/upgrade-easier/master/update.sh && chmod +x update.sh && ./update.sh
 ```
 
