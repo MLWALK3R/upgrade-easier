@@ -2,9 +2,7 @@
 echo -e "\E[33;40m[*]Checking if you're root\e[0m"
 if [[ $EUID -ne 0 ]]; then
    echo "\E[33;40mThis script must be run as root\e[0m"
-
    else echo "You're root great"
-
 echo -e "\E[33;40m[*] Checking Linux Distribution.\e[0m"
 
 if [ -f /etc/debian_version ];  then 
@@ -37,8 +35,6 @@ fi
 		sleep 2
 		echo -e "\E[32;40m[*]All done!\e[0m"
 		exit 0
-		
-		
 	elif [ "$DISTRO" = "REDHAT" ]; then
 		echo -e "\E[33;40m[*] Updating the cache.\e[0m"
 		echo
