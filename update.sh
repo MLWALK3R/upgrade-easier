@@ -26,10 +26,10 @@ fi
 		echo -e "\E[33;40m[*] Updating the cache.\e[0m"
 		apt-get update
 		sleep 1
-		echo -e "\E[33;40m[*] Upgrading...\e[0m"
+		echo -e "\E[33;40m[*] Upgrading..\e[0m"
 		sleep 2
 		apt-get upgrade -y
-		echo -e "\E[33;40m[*] Distribution Upgrades.. This could take a while. \e[0m"
+		echo -e "\E[33;40m[*] Distribution Upgrades... \e[0m"
 		sleep 1
 		echo
 		apt-get dist-upgrade -y
