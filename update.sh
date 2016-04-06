@@ -21,7 +21,7 @@ fi
 		echo
 		apt-get install -f -y;apt-get autoremove -y;apt-get autoclean -y; apt-get clean
 		sleep 1
-		echo -e "\E[33;40m[*] Updating the cache.\e[0m"
+		echo -e "\E[33;40m[*] Updating apt cache.\e[0m"
 		apt-get update
 		sleep 1
 		echo -e "\E[33;40m[*] Upgrading..\e[0m"
