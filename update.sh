@@ -21,10 +21,10 @@ fi
 	if [ "$DISTRO" = "DEBIAN" ]; then
 		echo -e "\E[33;40m[*] Updating the cache.\e[0m"
 		echo
-		apt-get update
+		apt-get install -f -y;apt-get autoremove -y;apt-get autoclean -y; apt-get clean
 		sleep 1
 		echo -e "\E[33;40m[*] Cleaning Up!...\e[0m"
-		apt-get install -f -y;apt-get autoremove -y;apt-get autoclean -y
+		apt-get update
 		sleep 1
 		echo -e "\E[33;40m[*] Upgrading...\e[0m"
 		sleep 2
@@ -37,6 +37,8 @@ fi
 		sleep 2
 		echo -e "\E[32;40m[*]All done.\e[0m"
 		exit 0
+		
+		
 	elif [ "$DISTRO" = "REDHAT" ]; then
 		echo -e "\E[33;40m[*] Updating the cache.\e[0m"
 		echo
