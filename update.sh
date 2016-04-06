@@ -14,7 +14,7 @@ elif [ -f /etc/redhat-release ]; then
     echo "This is a RedHat-Based Operating System"
     DISTRO=REDHAT;
 else 
-    echo -e "\E[33;40m no supported distribution found running\e[0m "
+    echo -e "\E[33;40m no supported distribution found.\e[0m "
 exit 0
 fi
 	sleep 1
