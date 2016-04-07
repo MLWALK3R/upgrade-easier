@@ -50,3 +50,6 @@ fi
 		fi
 	fi
 fi
+
+#The MIT License (MIT)
+#Copyright (c) 2014 Michael Walker
