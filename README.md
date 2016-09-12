@@ -13,7 +13,7 @@ RHEL Based OSes
 
 Usage
 ===========
-**Prefered method** (Without downloading)
+**Prefered method**
 
 ```bash
 curl -s https://raw.githubusercontent.com/MLWALK3R/upgrade-easier/master/update.sh | bash
