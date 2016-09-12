@@ -2,7 +2,6 @@ Updating made easier
 ===================
 Designed for updating linux servers with minimal effort.
 
-[![asciicast](https://asciinema.org/a/9z74rj7hxkje0wtzkmqn2oonn.png)](https://asciinema.org/a/9z74rj7hxkje0wtzkmqn2oonn?autoplay=1)
 
 Debian Based OSes
 * apt-get update
