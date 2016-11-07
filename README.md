@@ -11,6 +11,10 @@ Debian Based OSes
 RHEL Based OSes 
 * yum upgrade -y 
 
+ARCH Based OSes 
+* pacman -Scc --noconfirm
+* pacman -Syu --noconfirm
+
 Usage
 ===========
 **Prefered method**
@@ -19,6 +23,7 @@ Usage
 curl -s https://raw.githubusercontent.com/MLWALK3R/upgrade-easier/master/update.sh | bash
 ```
 
+```
 **Curl** verison
 ```bash
 curl -o update.sh  https://raw.githubusercontent.com/MLWALK3R/upgrade-easier/master/update.sh && chmod +x update.sh && ./update.sh
