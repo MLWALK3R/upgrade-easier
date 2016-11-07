@@ -1,7 +1,7 @@
 #!/bin/sh
-echo -e "\E[33;40m[*]Checking if you're root\e[0m"
+echo -e "\E[33;40m[*] Checking if you're root\e[0m"
 if [[ $EUID -ne 0 ]]; then
-   echo "\E[33;40mThis script must be run as root\e[0m"
+   echo -e "\E[33;40m[*] This script must be run as root\e[0m"
    else echo "You're root great"
 echo -e "\E[33;40m[*] Checking Linux Distribution.\e[0m"
 
@@ -18,7 +18,7 @@ elif [ -f /etc/manjaro-release ]; then
     echo "This is Manjaro Operating System"
     DISTRO=MJ;
 else 
-    echo -e "\E[33;40m no supported distribution found.\e[0m "
+    echo -e "\E[33;40m No supported distribution found.\e[0m "
 exit 0
 fi
 	sleep 1
@@ -39,7 +39,7 @@ fi
 		apt-get dist-upgrade -y
 		echo
 		sleep 2
-		echo -e "\E[32;40m[*]All done!\e[0m"
+		echo -e "\E[32;40m[*] All done!\e[0m"
 		exit 0
 	elif [ "$DISTRO" = "REDHAT" ]; then
 		echo -e "\E[33;40m[*] Updating the cache.\e[0m"
@@ -51,7 +51,7 @@ fi
 		echo -e "\E[33;40m[*] Upgrading...\e[0m"
 		sleep 2
 		yum upgrade --skip-broken -y
-		echo -e "\E[32;40m[*]All done.\e[0m"
+		echo -e "\E[32;40m[*] All done.\e[0m"
 		exit 0
 	elif [ "$DISTRO" = "ARCH" ]; then
 		echo -e "\E[33;40m[*] Cleaning up...\e[0m"
