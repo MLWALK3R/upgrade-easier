@@ -11,6 +11,12 @@ if [ -f /etc/debian_version ];  then
 elif [ -f /etc/redhat-release ]; then
     echo "This is a RedHat-Based Operating System"
     DISTRO=REDHAT;
+elif [ -f /etc/arch-release ]; then
+    echo "This is a Arch-Based Operating System"
+    DISTRO=ARCH;
+elif [ -f /etc/manjaro-release ]; then
+    echo "This is Manjaro Operating System"
+    DISTRO=MJ;
 else 
     echo -e "\E[33;40m no supported distribution found.\e[0m "
 exit 0
@@ -47,6 +53,26 @@ fi
 		yum upgrade --skip-broken -y
 		echo -e "\E[32;40m[*]All done.\e[0m"
 		exit 0
+	elif [ "$DISTRO" = "ARCH" ]; then
+		echo -e "\E[33;40m[*] Cleaning up...\e[0m"
+		echo
+		pacman -Scc --noconfirm
+		sleep 1
+		echo -e "\E[33;40m[*] Upgrading...\e[0m"
+		sleep 2
+		pacman -Syu --noconfirm
+		echo -e "\E[33;40m[*] Done.\e[0m"
+		exit 0
+    elif [ "$DISTRO" = "MJ" ]; then
+		echo -e "\E[33;40m[*] Cleaning up...\e[0m"
+		echo
+		pacman -Scc --noconfirm
+		sleep 1
+		echo -e "\E[33;40m[*] Upgrading...\e[0m"
+		sleep 2
+		pacman -Syu --noconfirm
+		echo -e "\E[33;40m[*] Done.\e[0m"
+		exit 0
 		fi
 	fi
-fi
+
