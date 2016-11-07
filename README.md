@@ -23,7 +23,7 @@ Usage
 curl -s https://raw.githubusercontent.com/MLWALK3R/upgrade-easier/master/update.sh | bash
 ```
 
-**Curl** verison
+**Curl** Version
 ```bash
 curl -o update.sh  https://raw.githubusercontent.com/MLWALK3R/upgrade-easier/master/update.sh && chmod +x update.sh && ./update.sh
 ```
